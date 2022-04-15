@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monument Extended';
+    background: #fff;
+}
+
+/* Navbar */
+.nav-wrapper {
+    width: 100%;
+    height: 9vh;
+    background: #000000;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hover-this {
+    transition: all 0.3s ease;
+}
+
+.navlink {
+    display: inline-block;
+    font-family: "Monument Extended";
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+    padding-left: 3rem;
+}
+
+
+/* Projects */
+.projects {
+    padding-top: 2rem;
+}
+.projects h1,
+.challenges h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.challenges h1 {
+    color: rgb(255, 255, 255);
+}
+
+.project {
+    text-align: center;
+}
+
+
+/* Challenges */
+.challenges {
+    background: rgb(71, 0, 186);
+    padding: 3rem;
+}
+
+.challenge-title {
+    text-align: center;
+}
+
+
+
+/* Home Button */
+.left-arrow {
+    float: left;
+    padding: 0rem 3rem;
+}
+
+.left-arrow a {
+    text-decoration: none;
+    color: rgb(98, 0, 255);
+}
+
+.portfolio {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project-container1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.project-container2 {
+    display: flex;
+    justify-content: space-between;
+}

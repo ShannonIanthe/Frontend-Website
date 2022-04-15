@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Open+Sans:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(29, 29, 29);
+}
+
+header {
+    width: 95%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.btns-container .fas{
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #181818;
+    font-family: 'Monument Extended';
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    width: 7rem;  
+}
+
+.logo {
+    align-self: flex-start;
+    background: black;
+}
+
+
+.navlink {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Monument Extended';  
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+}
+
+a {
+    margin: auto;
+    text-decoration: none;
+}
+
+
+/* Name */
+.name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 11rem;
+    padding-top: 7rem;
+    font-family: 'Monument Extended';
+    font-size: 2rem;
+    color: #fff;
+}
+
+.name-wrapper h1 {
+    text-align: justify;
+}
+.name-wrapper h5 {
+    text-align: justify;
+    font-size: 14px;
+}
+
+button {
+    background: transparent;
+    color: rgb(0, 213, 192);
+    border: 1px solid rgb(0, 213, 192);
+    padding: 15px;
+}
+
+.name {
+    color: rgb(98, 0, 255);
+    font-size: 3rem;
+    font-family: 'Monument Extended';
+}
+
+.right-arrow {
+    float: right;
+    padding: 0rem 3rem;
+}
+
+.portfolio {
+    display: inline-block;
+}
+
+
+
+
+/* About Me */
+.container-aboutme {
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+}
+
+.emphasis {
+    color: rgb(98, 0, 255);
+    font-family: 'Monument Extended';
+    font-size: 1.6rem;
+    transition: transform 0.1s linear;
+}
+
+.about-me{
+    padding: 2rem 15rem;
+}
+
+.about-me h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about-me p{
+    text-align: justify;
+    line-height: 1.5rem;
+    word-spacing: .2px;
+}
+
+.tech {
+    text-align: center;
+    padding: 1rem;
+}
+
+.skill-container {
+    background: rgb(98, 0, 255);
+    padding: 2rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.skill:hover {
+    background-color: rgb(98, 0, 255);
+}
+
+ h1{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 3rem;
+    height: 20vh;
+}
+.contact-info {
+    text-align: center;
+    align-items: center;
+}
+
+.saying {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 900px) {
+    nav {
+          display: flex;
+          justify-content: space-around;
+    }
+}
+
+@media(max-width: 900px) {
+    nav {
+          top: 30%;
+    }
+
+    .hover-this {
+          width: 100%;
+          padding: 20px 0;
+          display: inline-block;
+    }
+}
