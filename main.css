@@ -69,9 +69,9 @@ a {
 .name-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 11rem;
-    padding-top: 7rem;
+    align-items: flex-start;   
+    padding-top: 6rem; 
+    padding-left: 2rem;
     font-family: 'Monument Extended';
     font-size: 2rem;
     color: #fff;
@@ -85,11 +85,25 @@ a {
     font-size: 14px;
 }
 
+.frontend {
+    color: rgb(98, 0, 255);
+}
+
 button {
+    height: fit-content;
+    width: fit-content;
     background: transparent;
     color: rgb(0, 213, 192);
     border: 1px solid rgb(0, 213, 192);
-    padding: 15px;
+    padding: 15px 20px;
+    font-family: 'Monument Extended';
+
+}
+
+button:hover {
+    color: rgb(98, 0, 255);
+    background-color: rgb(0, 213, 192);
+    cursor: pointer;
 }
 
 .name {
@@ -105,6 +119,8 @@ button {
 
 .portfolio {
     display: inline-block;
+    font-family: 'Monument Extended';
+    color: #fff;
 }
 
 
@@ -170,10 +186,19 @@ button {
 }
 
 /* Contact */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .contact {
     text-align: center;
     padding: 3rem;
     height: 20vh;
+    font-family: 'Monument Extended';
+    color: #fff;
+
 }
 .contact-info {
     text-align: center;
@@ -182,9 +207,42 @@ button {
 
 .saying {
     text-align: center;
-
+    font-family: 'Monument Extended';
+    color: #fff;
+    height: 30vh;
 }
 
+
+
+/* Home Button */
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Monument Extended';
+    color: rgb(98, 0, 255);
+}
+.left-arrow {
+    float: left;
+    padding: 0rem 3rem;
+}
+
+.right-arrow {
+    float: right;
+    padding: 0rem 3rem;
+}
+
+.contact-me {
+    display: inline-block;
+}
+
+.left-arrow a {
+    text-decoration: none;
+    color: rgb(220, 216, 226);
+}
+
+.portfolio {
+    display: inline-block;
+}
 
 
 

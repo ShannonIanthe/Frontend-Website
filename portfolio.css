@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Monument Extended';
-    background: #fff;
+    background-color: rgb(71, 0, 186);
+
 }
 
 /* Navbar */
@@ -37,6 +38,15 @@ nav {
 
 
 /* Projects */
+.project:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.project {
+    border-radius: 5px;
+    transition: 1s;
+}
 .projects {
     padding-top: 2rem;
 }
@@ -45,6 +55,7 @@ nav {
     text-align: center;
     font-size: 3rem;
     padding-bottom: 1rem;
+    color: #fff;
 }
 
 .challenges h1 {
@@ -69,18 +80,35 @@ nav {
 
 
 /* Home Button */
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
 .left-arrow {
     float: left;
     padding: 0rem 3rem;
 }
 
+.right-arrow {
+    float: right;
+    padding: 0rem 3rem;
+}
+
+.contact-me {
+    display: inline-block;
+}
+
 .left-arrow a {
     text-decoration: none;
-    color: rgb(98, 0, 255);
+    color: rgb(220, 216, 226);
 }
 
 .portfolio {
     display: inline-block;
+}
+
+.contact-page {
+    display: flex;
 }
 
 a {
