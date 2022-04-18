@@ -1,101 +1,135 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Monument Extended';
-    background: rgb(29, 29, 29);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Monument Extended";
+  background: rgb(29, 29, 29);
 }
 
-
-/* Projects */
-.project:hover {
-    background-color: #fff;
-    cursor: pointer;
+/* Nav */
+nav {
+  position: sticky;
+  padding-top: 5px;
+  top: 0;
+  background-color: rgba(113, 53, 255, 0.317);
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  margin: 2rem;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 12px;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
 }
 
-.project {
-    font-size: 12px;
-    border-radius: 5px;
+nav a:hover {
+    color: rgb(142, 34, 34);
     transition: 1s;
 }
-.projects {
-    padding-top: .3rem;
-}
-h1 {
-    text-align: center;
-    font-size: 2.3rem;
-    padding-bottom: .5rem;
-    color: #fff;
-}
-.challenges h1 {
-    text-align: center;
-    font-size: 2.3rem;
-    padding-bottom: .5rem;
-    color: #fff;
-}
-
-.challenges h1 {
-    color: rgb(255, 255, 255);
+/* Projects */
+.project:hover {
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .project {
-    text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: 1s;
+}
+.projects {
+  padding-top: 0.3rem;
+}
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+.challenges h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
 }
 
+.challenges h1 {
+  color: rgb(255, 255, 255);
+}
+
+.project {
+  text-align: center;
+}
 
 /* Challenges */
 .challenges {
-    background: rgb(71, 0, 186);
-    padding: 3rem;
+  background: rgb(71, 0, 186);
+  padding: 3rem;
 }
 
 .challenge-title {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  text-align: center;
 }
 
+/* Home Button */
+.job {
+    margin: 2rem 2rem;
+}
+
+.resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Home Button */
 .arrows {
-    display: flex;
-    justify-content: space-between;
-    color: rgb(156, 64, 254);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(156, 64, 254);
 }
 
 .left-arrow {
-    float: left;
-    padding: 0rem 3rem;
+  float: left;
+  padding: 0rem 3rem;
 }
 
 .right-arrow {
-    float: right;
-    padding: 0rem 3rem;
+  float: right;
+  padding: 0rem 3rem;
 }
 
 .contact-me {
-    display: inline-block;
-    font-size: 18px;
+  display: inline-block;
+  font-size: 18px;
 }
 
 .portfolio {
-    display: inline-block;
-    font-size: 18px;
+  display: inline-block;
+  font-size: 18px;
 }
 
 .contact-page {
-    display: flex;
+  display: flex;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .project-container1 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
 }
 .project-container2 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
+

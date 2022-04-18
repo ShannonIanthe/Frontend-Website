@@ -65,7 +65,8 @@ button:hover {
     padding: 0rem 3rem;
 }
 
-.portfolio {
+.portfolio, 
+.contact-me {
     display: inline-block;
     font-family: 'Monument Extended';
     color: #fff;
@@ -74,7 +75,9 @@ button:hover {
 .portfolio > h4 {
     font-size: 12px;
 }
-
+.contact-me > h4 {
+    font-size: 12px;
+}
 /* Icons */
 #icon {
     display: inline-block;
@@ -145,12 +148,6 @@ button:hover {
 }
 
 /* Contact */
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 .contact {
     text-align: center;
     padding: 3rem;
@@ -173,7 +170,7 @@ button:hover {
 
 
 
-/* Home Button */
+/* Portfolio & Home Button */
 .arrows {
     display: flex;
     justify-content: space-between;
@@ -199,9 +196,7 @@ button:hover {
     color: rgb(220, 216, 226);
 }
 
-.portfolio {
-    display: inline-block;
-}
+
 
 
 
