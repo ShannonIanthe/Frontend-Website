@@ -3,18 +3,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Monument Extended";
-  background: rgb(29, 29, 29);
+  background: rgb(22, 22, 22);
 }
 
 /* Nav */
 nav {
   position: sticky;
-  padding-top: 5px;
+  padding-top: 2px;
   top: 0;
-  background-color: rgba(113, 53, 255, 0.317);
+  background-color: rgba(128, 126, 126, 0.317);
   backdrop-filter: blur(5px);
   border-radius: 5px;
-  margin: 2rem;
+  margin: 1rem 8rem;
 }
 .nav-ul {
   display: flex;
@@ -25,34 +25,44 @@ nav {
   padding-top: 0.5rem;
 }
 
+nav a {
+  color: #fff;
+}
+
 nav a:hover {
-    color: rgb(142, 34, 34);
     transition: 1s;
 }
+
 /* Projects */
 .project:hover {
   background-color: #fff;
+  color: black;
   cursor: pointer;
 }
 
 .project {
+  width: min(50vw, 300px); ;
   font-size: 12px;
   border-radius: 5px;
   transition: 1s;
 }
 .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-top: 0.3rem;
-}
-h1 {
-  text-align: center;
-  font-size: 2.3rem;
-  padding-bottom: 0.5rem;
+  min-height: 70vh;
   color: #fff;
 }
-.challenges h1 {
+.project-h1 {
   text-align: center;
   font-size: 2.3rem;
-  padding-bottom: 0.5rem;
+  padding: 2rem;
+  color: #fff;
+}
+.achievements-h1 {
+  font-size: 2.3rem;
   color: #fff;
 }
 
@@ -64,16 +74,57 @@ h1 {
   text-align: center;
 }
 
+
 /* Challenges */
 .challenges {
-  background: rgb(71, 0, 186);
-  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.challenge-container {
+  display: flex;
 }
 
 .challenge-title {
+  flex: 1;
+  justify-content: center;
+  border: 2px solid green;
   font-size: 15px;
   text-align: center;
 }
+
+.challenge-link:hover {
+  color: yellow;
+}
+
+/* Experience Section */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  color: white;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+button {
+  background-color: #fff;
+  padding: .5rem .5rem;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+}
+
 
 /* Home Button */
 .job {
@@ -90,7 +141,7 @@ h1 {
 .arrows {
   display: flex;
   justify-content: space-between;
-  color: rgb(156, 64, 254);
+  color: #fff;
 }
 
 .left-arrow {
@@ -131,5 +182,28 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width : 480px){
+ 
+}
+
+
+/* For iphone: */
+@media screen and (max-width : 320px){
+
+} 
+
+
+/* For ipad: */
+@media screen and (max-width : 768px){
+  .project-container1,
+  .project-container2,
+  .challenge-container {
+    display: block;
+  }
+} 
+
+
+
 
 
