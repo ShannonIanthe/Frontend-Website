@@ -95,7 +95,6 @@ nav a:hover {
 .challenge-title {
   flex: 1;
   justify-content: center;
-  border: 2px solid green;
   font-size: 15px;
   text-align: center;
 }
