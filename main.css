@@ -219,3 +219,17 @@ button:hover {
     }
 }
 
+@media screen and (max-width : 480px){
+    nav {
+        margin: 1rem 1rem;
+    }
+}
+
+
+/* For iphone: */
+@media screen and (max-width : 320px){
+    nav {
+        margin: 1rem 1rem;
+    }
+}
+
