@@ -164,17 +164,14 @@ button {
 
 .contact-me {
   display: inline-block;
-  font-size: 18px;
 }
 
-.portfolio {
+.arrow {
   display: inline-block;
   font-size: 18px;
 }
 
-.contact-page {
-  display: flex;
-}
+
 
 a {
   text-decoration: none;
