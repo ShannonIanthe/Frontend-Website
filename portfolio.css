@@ -132,6 +132,9 @@ button {
   border: none;
 }
 
+.resume {
+  color: black;
+}
 
 /* Home Button */
 .job {
