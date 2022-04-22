@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    transition: 1s;
+  transition: 1s;
 }
 
 /* Projects */
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 .project {
-  width: min(50vw, 300px); ;
+  width: min(50vw, 300px);
   font-size: 12px;
   border-radius: 5px;
   transition: 1s;
@@ -78,7 +78,6 @@ nav a:hover {
   text-align: center;
 }
 
-
 /* Challenges */
 .challenges {
   display: flex;
@@ -90,6 +89,7 @@ nav a:hover {
 
 .challenge-container {
   display: flex;
+  gap: 2rem;
 }
 
 .challenge-title {
@@ -97,13 +97,16 @@ nav a:hover {
   justify-content: center;
   font-size: 15px;
   text-align: center;
+  border: #fff 2px solid;
+  border-radius: 10px;
+  padding: 5px 5px;
 }
 
 .challenge-link:hover {
   color: yellow;
 }
 
-.challenge-container p{
+.challenge-container p {
   text-align: justify;
 }
 
@@ -126,9 +129,9 @@ nav a:hover {
 
 button {
   background-color: #fff;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border: none;
 }
 
@@ -138,13 +141,13 @@ button {
 
 /* Home Button */
 .job {
-    margin: 2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .resume {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Home Button */
@@ -154,7 +157,6 @@ button {
   color: #fff;
 }
 
-
 .contact-me {
   display: inline-block;
 }
@@ -163,8 +165,6 @@ button {
   display: inline-block;
   font-size: 18px;
 }
-
-
 
 a {
   text-decoration: none;
@@ -181,32 +181,24 @@ a {
   justify-content: space-between;
 }
 
-@media screen and (max-width : 480px){
+@media screen and (max-width: 480px) {
   nav {
-      margin: 1rem 1rem;
+    margin: 1rem 1rem;
   }
 }
-
 
 /* For iphone: */
-@media screen and (max-width : 320px){
+@media screen and (max-width: 320px) {
   nav {
-      margin: 1rem 1rem;
+    margin: 1rem 1rem;
   }
 }
 
-
-
 /* For ipad: */
-@media screen and (max-width : 768px){
+@media screen and (max-width: 768px) {
   .project-container1,
   .project-container2,
   .challenge-container {
     display: block;
   }
-} 
-
-
-
-
-
+}

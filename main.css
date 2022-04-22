@@ -14,29 +14,23 @@ html, body {
     animation-direction: alternate; */
 }
 
-.container {
-    min-height: 85vh;
-}
-
 
 /* Nav */
 nav {
     position: sticky;
-    padding-top: 2px;
     top: 0;
     background-color: rgba(128, 126, 126, 0.317);
     backdrop-filter: blur(5px);
     border-radius: 5px;
-    margin: 1rem 8rem;
+    margin: 0rem 1rem;
     font-family: 'Monument Extended';
   }
   .nav-ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     font-size: 12px;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding: 1rem 1rem;
   }
   
   nav a:hover {
@@ -51,13 +45,17 @@ nav {
   }
 
 /* Name */
+.name-container {
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    flex-grow: 1;
+}
 .name-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;  
-    padding-top: 6rem; 
-    padding-left: 2rem;
     font-family: 'Monument Extended';
     color: #fff;
 }
@@ -183,6 +181,10 @@ button:hover {
 }
 
 .right-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
     float: right;
     padding: 0rem 3rem;
 }
