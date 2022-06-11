@@ -50,7 +50,7 @@ nav a:hover {
 
 /* Projects */
 a:hover {
-  background-color: rgb(35, 245, 227);
+  background-color: #3c67e3;
   color: black;
   cursor: pointer;
 }
@@ -110,6 +110,7 @@ a:hover {
   display: flex;
   padding: 2rem 1rem;
   font-family: 'Open Sans', sans-serif;
+  gap: 3rem;
 }
 
 .challenge-title {
@@ -131,7 +132,7 @@ a:hover {
 }
 
 .challenge-container p {
-  text-align: justify;
+  text-align: match-parent;
 }
 
 a.challenge-link {
@@ -178,6 +179,10 @@ button {
 
 .resume {
   color: black;
+}
+
+.resume:hover {
+  background-color: #3c67e3;
 }
 
 /* Home Button */

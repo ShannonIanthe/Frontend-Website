@@ -127,13 +127,13 @@ button:hover {
 }
 
 .fa:hover {
-    background-color: #3ABEAA;
+    background-color: #3c67e3;
     transition: .5s;
     cursor: pointer;
 }
 
 .fab:hover {
-    background-color: #3ABEAA;
+    background-color: #3c67e3;
     transition: .5s;
     cursor: pointer;
 }
