@@ -26,6 +26,16 @@ nav {
   padding: 1rem 1rem;
 }
 
+.icons a {
+    color: #3c67e3;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.icons a:hover {
+    color: #fff;
+}
+
 nav a {
   color: #ffffff;
   text-decoration: none;
