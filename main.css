@@ -16,9 +16,9 @@ nav {
     border: 5px solid;
     border-image: 
     linear-gradient(
-        #ff512f,
+        #fff,
         #dd2476,
-        #1c64ff) 1;
+        #3ad4ff) 1;
     animation: rotate 
     2.5s
     ease-in
@@ -34,6 +34,12 @@ nav {
     font-size: 12px;
     padding: 1rem 1rem;
   }
+
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 450;
+}
   
   nav a:hover {
       animation: pulsate 1s ease-in-out;
@@ -41,11 +47,6 @@ nav {
       transition: 1s;
   }
 
-  nav a {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: 450;
-  }
 
 /* Name */
 .name-container {

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 html,
 body {
   margin: 0;
@@ -9,32 +11,45 @@ body {
 /* Nav */
 nav {
   position: sticky;
-  padding-top: 2px;
   top: 0;
   background-color: rgba(128, 126, 126, 0.317);
   backdrop-filter: blur(5px);
-  border-radius: 5px;
-  margin: 1rem 8rem;
+  border: 5px solid;
+  border-image: 
+  linear-gradient(
+      #fff,
+      #dd2476,
+      #3ad4ff) 1;
+  animation: rotate 
+  2.5s
+  ease-in
+  infinite;
+  border-radius: 15px;
+  margin: 1rem 1rem;
+  font-family: 'Monument Extended';
 }
 .nav-ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style-type: none;
   font-size: 12px;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
+  padding: 1rem 1rem;
 }
 
 nav a {
   color: #fff;
+  text-decoration: none;
+  font-weight: 450;
 }
 
 nav a:hover {
+  animation: pulsate 1s ease-in-out;
+  color: rgb(63, 34, 142);
   transition: 1s;
 }
 
 /* Projects */
-.project:hover {
+a:hover {
   background-color: rgb(35, 245, 227);
   color: black;
   cursor: pointer;
@@ -51,7 +66,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 0.3rem;
+  padding: 0.3rem 1rem;
   min-height: 70vh;
   color: #fff;
 }
@@ -62,16 +77,18 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
-.portfolio-img {
-  display: flex;
-}
-.achievements-h1 {
-  font-size: 2.3rem;
-  color: #fff;
+.project-description {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.challenges h1 {
-  color: rgb(255, 255, 255);
+.project-image {
+  padding: 1rem 1rem;
+}
+
+.website-image {
+  width: 100%;
+  height: auto;
+  display: flex;
 }
 
 .project {
@@ -85,11 +102,14 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   min-height: 80vh;
+  padding: .8rem;
+  background-color: #fff;
 }
 
 .challenge-container {
   display: flex;
-  gap: 2rem;
+  padding: 2rem 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .challenge-title {
@@ -97,18 +117,35 @@ nav a:hover {
   justify-content: center;
   font-size: 15px;
   text-align: center;
-  border: #fff 2px solid;
-  border-radius: 10px;
-  padding: 5px 5px;
+  border: #000 2px solid;
+  border-radius: 5px;
+  padding: 1rem 5px;
+}
+
+.challenge-link {
+  border-radius: 5px;
 }
 
 .challenge-link:hover {
-  color: yellow;
+  color: #000;
 }
 
 .challenge-container p {
   text-align: justify;
 }
+
+a.challenge-link {
+  color: #000;
+}
+
+.challenges h1 {
+  color: #000;
+}
+
+.achievements-h1 {
+  font-size: 2.3rem;
+}
+
 
 /* Experience Section */
 .experience {
@@ -118,6 +155,10 @@ nav a:hover {
   justify-content: center;
   min-height: 70vh;
   color: white;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .button {
@@ -131,7 +172,7 @@ button {
   background-color: #fff;
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Open Sans', sans-serif;
   border: none;
 }
 
