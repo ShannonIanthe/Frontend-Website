@@ -290,6 +290,9 @@ button {
   .project h2 {
     color: #fff;
   }
+  .project-description {
+    padding: 0px 0px;
+  }
   .project {
     background-color: rgb(17, 17, 17);
     color: #fff;
