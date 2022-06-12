@@ -41,9 +41,14 @@ nav a:hover {
 }
 
 /* Projects */
+.project-name a {
+  color: #3c67e3;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
 .project-name > a:hover {
-  background-color: #3c67e3;
-  color: black;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -62,17 +67,26 @@ nav a:hover {
   min-height: 70vh;
   color: #fff;
 }
+
+.project-title {
+  color: #fff;
+  padding: 3rem;
+  line-height: 1px;
+}
+
 .project-h1 {
   text-align: center;
   font-size: 2.3rem;
-  padding: 2rem;
   color: rgb(255, 255, 255);
+}
+
+.project-title p{
+  font-size: .6rem;
 }
 
 .project h4 {
   font-family: 'Monument Extended';
   font-weight: 100;
-  line-height: .2rem;
 }
 
 .project-description {
@@ -102,7 +116,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 60vh;
   padding: .8rem;
   background-color: #fff;
 }
@@ -145,7 +159,7 @@ a.challenge-link {
 }
 
 .achievements-h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 
@@ -153,11 +167,12 @@ a.challenge-link {
 .experience {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 70vh;
-  color: white;
-  margin: 1rem;
+  color: #fff;
+}
+
+.experience h1 {
+  text-align: center;
 }
 
 .description {
@@ -196,7 +211,10 @@ button {
 
 
 .job {
-  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 1rem 1rem 3rem;
 }
 
 .resume {
