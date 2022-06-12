@@ -1,2 +1,18 @@
-gsap.from('.name-container', { duration:1, y: '-100%', ease: 'bounce'})
-gsap.from('.nav-link', { duration: 1, opacity: 0, delay:1 })
+gsap.from(".innovate", {
+  opacity: 0,
+  y: 100,
+  duration: 1,
+});
+
+gsap.from(".design", {
+  opacity: 0,
+  y: 100,
+  duration: 7,
+});
+
+gsap.from(".create", {
+  opacity: 0,
+  y: 100,
+  duration: 10,
+});
+

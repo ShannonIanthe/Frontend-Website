@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 html,
 body {
-  margin: 0;
+  margin: 1rem 1rem;
   padding: 0;
-  font-family: "Monument Extended";
-  background: rgb(22, 22, 22);
+  background: rgb(17, 17, 17);
 }
 
 /* Nav */
 nav {
-  position: sticky;
-  top: 0;
-  background-color: rgba(128, 126, 126, 0.317);
-  backdrop-filter: blur(5px);
-  border: 5px solid;
-  border-radius: 15px;
-  margin: 1rem 1rem;
-  font-family: 'Monument Extended';
-}
-
-.nav-ul {
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
-  font-size: 12px;
-  padding: 1rem 1rem;
+  align-items: center;
+  padding-top: 2rem;
+  margin: .5rem 2rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.nav-link {
+  display: flex;
+}
+
+
+.logo > a {
+  color: #3c67e3;
+  font-size: 2rem;
 }
 
 nav a {
@@ -36,15 +38,20 @@ nav a {
 
 nav a:hover {
   animation: pulsate 1s ease-in-out;
-  color: rgb(63, 34, 142);
+  color: #3c67e3;
   transition: 1s;
 }
 
 /* Projects */
+.project-name {
+  font-family: 'Bebas Neue', cursive;
+}
+
 .project-name a {
-  color: #3c67e3;
+  color: rgb(17, 17, 17);
   text-decoration: none;
   transition: 0.6s;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .project-name > a:hover {
@@ -58,6 +65,7 @@ nav a:hover {
   border-radius: 5px;
   transition: 1s;
 }
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -65,12 +73,27 @@ nav a:hover {
   justify-content: center;
   padding: 0.3rem 1rem;
   min-height: 70vh;
-  color: #fff;
+  background: rgb(17, 17, 17);
+  gap: 2rem;
+}
+
+.project-container1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  background-color: #3c67e3;
+  border-radius: 3px;
+}
+.project-container2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c67e3;
+  border-radius: 3px;
 }
 
 .project-title {
   color: #fff;
-  padding: 3rem;
+  padding: 1rem;
   line-height: 1px;
 }
 
@@ -78,19 +101,27 @@ nav a:hover {
   text-align: center;
   font-size: 2.3rem;
   color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: underline;
+}
+
+.project h2 {
+  color: rgb(17, 17, 17);
+  font-family: 'Bebas Neue', cursive;
 }
 
 .project-title p{
   font-size: .6rem;
+  color: rgb(17, 17, 17);
 }
 
 .project h4 {
-  font-family: 'Monument Extended';
+  font-family: 'Bebas Neue', cursive;
   font-weight: 100;
 }
 
 .project-description {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .project-image {
@@ -110,75 +141,30 @@ nav a:hover {
   text-align: center;
 }
 
-/* Challenges */
-.challenges {
+/* Tech Stack */
+
+.tech-stack {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
-  padding: .8rem;
   background-color: #fff;
+  border-radius: 5px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 2rem 2rem;
 }
 
-.challenge-container {
-  display: flex;
-  padding: 2rem 1rem;
-  font-family: 'Open Sans', sans-serif;
-  gap: 3rem;
-}
 
-.challenge-title {
-  flex: 1;
-  justify-content: center;
-  font-size: 15px;
+.tech-stack h3 {
   text-align: center;
-  border: #000 2px solid;
-  border-radius: 5px;
-  padding: 1rem 5px;
-}
-
-.challenge-link {
-  border-radius: 5px;
-}
-
-.challenge-link:hover {
-  color: #000;
-}
-
-.challenge-container p {
-  text-align: match-parent;
-}
-
-a.challenge-link {
-  color: #000;
-}
-
-.challenges h1 {
-  color: #000;
-}
-
-.achievements-h1 {
+  text-decoration: underline;
   font-size: 2rem;
 }
 
 
-/* Experience Section */
-.experience {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-}
 
-.experience h1 {
-  text-align: center;
-}
 
-.description {
-  font-family: 'Open Sans', sans-serif;
-}
-
+/* About me */
 .button {
   display: flex;
   align-items: center;
@@ -210,18 +196,7 @@ button {
 }
 
 
-.job {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 3rem 1rem 1rem 3rem;
-}
 
-.resume {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* Home Button */
 .arrows {
@@ -229,6 +204,7 @@ button {
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .contact-me {
@@ -249,21 +225,7 @@ button {
   color: #3c67e3;
 }
 
-.project-container1 {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 3rem;
-}
-.project-container2 {
-  display: flex;
-  justify-content: space-between;
-}
 
-@keyframes pulsate {
-  0% {
-    box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
-  }
-}
 
 @media screen and (max-width: 480px) {
   nav {
@@ -279,7 +241,7 @@ button {
 }
 
 /* For ipad: */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .project-container1,
   .project-container2,
   .challenge-container {
