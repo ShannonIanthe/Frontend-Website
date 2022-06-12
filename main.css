@@ -94,9 +94,10 @@ nav a:hover {
 
 .name {
   text-align: left;
-  font-size: 2rem;
+  font-size: 2vh;
   font-family: 'Bebas Neue', cursive;  
   letter-spacing: 2px; 
+  -webkit-font-smoothing: antialiased;
 }
 
 .name-wrapper h5 {
@@ -180,8 +181,10 @@ button:hover {
 .contact {
   text-align: center;
   padding: 1rem;
-  font-family: "Monument Extended";
+  font-family: 'Bebas Neue', cursive;  
   color: #fff;
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
 }
 .contact-info {
   text-align: center;
@@ -197,23 +200,28 @@ button:hover {
 /* Portfolio & Home Button */
 .arrows {
   display: flex;
+  align-items: center;
+  justify-content: center;
   justify-content: space-between;
   font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
 }
 
 .left-arrow {
   float: left;
-  padding: 0rem 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 .right-arrow {
+  float: right;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
   float: right;
-  padding: 0rem 2rem;
-  font-size: 1.3rem;
 }
 
 .contact-me {
@@ -223,6 +231,21 @@ button:hover {
 .left-arrow a {
   text-decoration: none;
   color: rgb(220, 216, 226);
+}
+
+/* footer */
+
+footer {
+  font-family: 'Bebas Neue', cursive;
+}
+
+footer p {
+  color: #3c67e3;
+}
+.my-name {
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
 }
 
 
