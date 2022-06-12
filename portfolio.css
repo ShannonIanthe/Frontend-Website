@@ -69,6 +69,12 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
+.project h4 {
+  font-family: 'Monument Extended';
+  font-weight: 100;
+  line-height: .2rem;
+}
+
 .project-description {
   font-family: 'Open Sans', sans-serif;
 }
@@ -151,6 +157,7 @@ a.challenge-link {
   justify-content: center;
   min-height: 70vh;
   color: white;
+  margin: 1rem;
 }
 
 .description {
@@ -176,13 +183,18 @@ button {
   color: black;
 }
 
+.resume > a {
+  text-decoration: none;
+  color: #000;
+}
+
 .resume:hover {
   animation: pulsate 1s ease-in-out;
   color: rgb(63, 34, 142);
   transition: 1s;
 }
 
-/* Home Button */
+
 .job {
   margin: 2rem 2rem;
 }
@@ -197,6 +209,7 @@ button {
 .arrows {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #fff;
 }
 
@@ -206,12 +219,16 @@ button {
 
 .arrow {
   display: inline-block;
-  font-size: 18px;
 }
 
-a {
+.arrow-button {
   text-decoration: none;
   color: #fff;
+  transition: 0.6s;
+}
+
+.arrow-button:hover {
+  color: #3c67e3;
 }
 
 .project-container1 {

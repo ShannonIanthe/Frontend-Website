@@ -86,6 +86,11 @@ button {
   font-family: "Monument Extended";
 }
 
+.contact-button {
+  text-decoration: none;
+  color: #fff;
+}
+
 button:hover {
   animation: pulsate 1s ease-in-out;
   color: #fff;
