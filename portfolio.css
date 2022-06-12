@@ -74,13 +74,15 @@ nav a:hover {
 }
 
 .project-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 1rem;
 }
 
 .website-image {
   width:  300px;
   height: 200px;
-  display: flex;
   vertical-align: middle;
 }
 
