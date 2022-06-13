@@ -74,11 +74,12 @@ nav a:hover {
 .name-container {
   display: flex;
   justify-content: center;
-  min-height: 80vh;
+  height: 60vh;
+  width: 20vh;
+  padding: 2rem 2rem;
   flex-grow: 1;
   border: 1px #3c67e3 solid;
   -webkit-font-smoothing: antialiased;
-  background-color: #3c67e3;
 }
 
 .name-wrapper {
@@ -96,7 +97,8 @@ nav a:hover {
   text-align: left;
   font-size: 2vh;
   font-family: 'Bebas Neue', cursive;  
-  letter-spacing: 2px; 
+  letter-spacing: 3px; 
+  line-height: 1rem;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -260,5 +262,8 @@ footer p {
 @media screen and (max-width: 320px) {
   nav {
     margin: 1rem 1rem;
+  }
+  .container {
+
   }
 }
