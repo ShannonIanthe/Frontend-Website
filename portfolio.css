@@ -81,7 +81,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
-  background-color: #3c67e3;
+  background-color: #fff;
   border-radius: 3px;
 }
 .project-container2 {
@@ -302,7 +302,8 @@ button {
     height: 50px;
     width: 50px;
   }
-  .hr {
+  hr {
     visibility: visible;
+    border: 2px solid #3c67e3;
   }
 }
