@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-html,
-body {
-  margin: 1rem 1rem;
+* {
+  margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
   background: rgb(17, 17, 17);
 }
 
@@ -15,8 +19,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  margin: .5rem 2rem;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -60,7 +62,7 @@ nav a:hover {
 }
 
 .project {
-  width: min(50vw, 300px);
+  width: min(60vw, 300px);
   font-size: 12px;
   border-radius: 5px;
   transition: 1s;
@@ -75,6 +77,10 @@ nav a:hover {
   min-height: 70vh;
   background: rgb(17, 17, 17);
   gap: 2rem;
+}
+
+.project-title .project-p {
+  color: #fff;
 }
 
 .project-container1 {
@@ -92,9 +98,10 @@ nav a:hover {
 }
 
 .project-title {
+  display: flex;
+  flex-direction: column;
   color: #fff;
   padding: 1rem;
-  line-height: 1px;
 }
 
 .project-h1 {
@@ -111,8 +118,10 @@ nav a:hover {
 }
 
 .project-title p{
-  font-size: .6rem;
+  font-size: .8rem;
   color: rgb(17, 17, 17);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
 }
 
 .project h4 {
@@ -148,7 +157,14 @@ hr {
   visibility: hidden;
 }
 
-/* Tech Stack */
+/* Tech Stack 
+.about-tech-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+    min-height: 300px;
+} */
 
 .tech-stack {
   display: flex;
@@ -158,7 +174,7 @@ hr {
   background-color: #fff;
   border-radius: 5px;
   font-family: 'Bebas Neue', cursive;
-  margin: 2rem 0rem;
+  margin: 1rem 1rem;
 }
 
 .tech-image-container {
@@ -202,9 +218,7 @@ hr {
 
 .button {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 button {
@@ -230,14 +244,16 @@ button {
   transition: 1s;
 }
 
+.end-container {
+  margin: 1rem 1rem;
+}
+
 
 
 
 /* Home Button */
 .arrows {
-  display: flex;
-  align-items: flex-end;
-  justify-content: end;
+  float: right;
   color: #fff;
   font-family: 'Bebas Neue', cursive;
 }
@@ -258,6 +274,15 @@ button {
   color: #3c67e3;
 }
 
+.contact-a {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s;
+}
+
+.contact-a:hover {
+  color: #3c67e3;
+}
 
 
 @media screen and (max-width: 480px) {
