@@ -20,16 +20,21 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-family: 'Bebas Neue', cursive;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .nav-link {
   display: flex;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
 }
 
 
 .logo > a {
   color: #3c67e3;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 nav a {
@@ -260,7 +265,9 @@ button {
 
 .contact-me {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 2rem;
+  padding: .5rem;
+  letter-spacing: 2px;
 }
 
 

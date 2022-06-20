@@ -25,12 +25,14 @@ nav {
 
 .nav-link {
   display: flex;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
 }
 
 
 .logo > a {
   color: #3c67e3;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .icons a {
@@ -95,15 +97,15 @@ nav a:hover {
 
 .name {
   text-align: left;
-  font-size: 2vh;
+  font-size: 5vh;
   font-family: 'Bebas Neue', cursive;  
   letter-spacing: 3px; 
-  line-height: 1rem;
+  line-height: 3rem;
   -webkit-font-smoothing: antialiased;
 }
 
 .name-wrapper h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .frontend {
